@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div id="stripe" class="text-center">
+        <img class="logo" src="img/logo.png" alt="" />
+        <p>RECEPCIÓN DE VIDEOS</p>
+    </div>
+
+    <section id="main-container">
+        <div class="container">
+            <div class="card shadow">
+                <div class="card-body">
+
+                    <h6>Datos Personales</h6>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Nombre *</label>
+                                <input type="text" class="" name="name" />
+                                <!-- <div class="error">El nombre es obligatorio</div> -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Apellido *</label>
+                                <input type="text" class="" name="apellido" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Correo electrónico *</label>
+                                <input type="email" class="" name="email" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Confirmar correo electrónico *</label>
+                                <input type="email" class="" name="email" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h6>Datos de la clase</h6>                    
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Sociedad *</label>
+                                <input type="text" name="clase" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Nombre del curso *</label>
+                                <input type="text" name="clase" />
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label>Nombre de la clase *</label>
+                                <input type="text" name="clase" />
+                                <!-- <div class="error">El nombre de la clase es obligatorio</div> -->
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <div class="contenedor-archivos">
+                                <button class="boton-seleccionar">
+                                    Seleccionar video
+                                </button>
+
+                                <span class="span-nombre-archivo">
+                                    No hay video seleccionado (obligatorio)
+                                </span>
+
+                            </div>
+                            <!-- <div class="error">El video es obligatorio</div> -->
+                        </div>
+
+                        <div class="col-12 my-3">
+                            <div class="contenedor-archivos">
+                                
+                                <button class="boton-seleccionar">
+                                    Seleccionar Power Point
+                                </button>
+
+                                <span class="span-nombre-archivo">
+                                    No hay Power Point seleccionado (opcional)
+                                </span>
+                                
+                            </div>
+                            <!-- <div class="error">El video es obligatorio</div> -->
+                        </div>
+
+                        <div class="col-12 my-3">
+                            <div class="contenedor-archivos">
+                                
+                                <button class="boton-seleccionar">
+                                    Seleccionar preguntas
+                                </button>
+                                
+                                <span class="span-nombre-archivo">
+                                    No hay preguntas seleccionadas (opcional)
+                                </span>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <hr />
+                        </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <button class="btn-enviar">
+                                Enviar video
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="ml-4 d-inline-block">
+            <small>
+                En caso de dudas escribir al correo:
+                <br />
+                <span>jmorgado@compuerta.cl</span>
+            </small>            
+        </div>
+        <div class="mx-4">
+            <img width="250px" src="img/logo-footer.svg" />
+        </div>
+    </footer>
+    
+</body>
+
+<script src="assets/bootstrap/jquery-3.5.1.slim.min.js"></script>
+<script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+
+</html>
